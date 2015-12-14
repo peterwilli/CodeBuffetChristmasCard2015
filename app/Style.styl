@@ -4,4 +4,6 @@ body
 .stars
   img
     position absolute
-    transform: translateZ(0);
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000;
